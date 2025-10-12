@@ -18,7 +18,7 @@ export default function Navbar() {
               <a href="#team" className="text-black hover:text-blue-500">Team Abhilasha</a>
               <a href="#apply" className="text-black hover:text-blue-500">Apply for Agent</a>
               <a href="#query" className="text-black hover:text-blue-500">Query</a>
-              <a href="#reviews" className="text-black hover:text-blue-500">Reviews</a>
+              <a href="#contact" className="text-black hover:text-blue-500">Reviews</a>
               <a href="#contact" className="text-black hover:text-blue-500">Contact</a>
             </div>
           </div>
@@ -49,7 +49,7 @@ export default function Navbar() {
           <a href="#team" onClick={() => setIsOpen(false)} className="block text-black hover:text-blue-500">Team Abhilasha</a>
           <a href="#apply" onClick={() => setIsOpen(false)} className="block text-black hover:text-blue-500">Apply for Agent</a>
           <a href="#query" onClick={() => setIsOpen(false)} className="block text-black hover:text-blue-500">Query</a>
-          <a href="#reviews" onClick={() => setIsOpen(false)} className="block text-black hover:text-blue-500">Reviews</a>
+          <a href="#contact" onClick={() => setIsOpen(false)} className="block text-black hover:text-blue-500">Reviews</a>
           <a href="#contact" onClick={() => setIsOpen(false)} className="block text-black hover:text-blue-500">Contact</a>
         </div>
       )}

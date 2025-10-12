@@ -93,6 +93,7 @@ export default function AgentApply() {
           ></textarea>
 
           <button
+            id="query"
             type="submit"
             className="bg-[#F09A3E] text-white uppercase text-center font-semibold p-4 rounded-md hover:bg-[#FFCB08] hover:text-blue-900 transition duration-500"
           >

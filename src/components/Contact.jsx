@@ -4,7 +4,7 @@ import Separator from "../ui/Separator";
 
 export default function Contact() {
   return (
-    <div className="bg-[#F7F5F4]">
+    <div id="contact" className="bg-[#F7F5F4]">
       <section id="contact" className="max-w-5xl mx-auto px-6 py-12 text-center sm:text-left">
         {/* Heading */}
         <h1 className="text-[#333C4E] text-4xl font-bold text-center capitalize">
@@ -95,6 +95,15 @@ export default function Contact() {
             </a>
           </p>
           <p>
+            <span className="font-semibold text-blue-900">Email:</span>{" "}
+            <a
+              href="mailto:abhilashamauka23@gmail.com"
+              className="text-blue-600 hover:underline"
+            >
+              abhilashamauka23@gmail.com
+            </a>
+          </p>
+          <p>
             <span className="font-semibold text-blue-900">Phone:</span>{" "}
             <a href="tel:+919907972354" className="text-blue-600 hover:underline">
               +91 99079 72354
@@ -105,7 +114,7 @@ export default function Contact() {
             LIC Branch Office, Bhopal
           </p>
           <p className="text-gray-600 italic pt-2">
-            Available Monday to Saturday — 10:00 AM to 6:00 PM
+            Available Monday to Friday — 10:00 AM to 6:00 PM
           </p>
         </div>
       </section>

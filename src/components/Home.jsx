@@ -61,7 +61,7 @@ function Home() {
               text-justify "
           >
             With over a decade of experience as a trusted{" "}
-            <span className="font-semibold">LIC advisor in Bhopal</span>,
+            <span className="font-semibold">LIC Development Office in Bhopal</span>,
             Abhilasha Mauka guided hundreds of families toward financial
             stability and peace of mind. Her deep understanding of life
             insurance and financial planning allows her to craft solutions
@@ -77,7 +77,7 @@ function Home() {
               text-justify "
           >
             Under her leadership,{" "}
-            <span className="font-semibold">Team Abhilasha</span> has grown into
+            <span id="services" className="font-semibold">Team Abhilasha</span> has grown into
             one of Bhopal’s most respected groups of LIC agents, known for their
              prompt claim support, and personalized
             financial guidance. Whether you're new to insurance or planning your

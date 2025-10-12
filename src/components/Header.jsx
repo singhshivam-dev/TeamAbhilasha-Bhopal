@@ -3,7 +3,7 @@ import { FaFacebookF, FaInstagram, FaYoutube, FaLinkedinIn, FaWhatsapp, FaPhone,
 
 export default function Header() {
     return (
-        <header className="bg-[#01559B] text-white flex flex-col sm:flex-row items-center justify-between gap-6 p-6">
+        <header id="home" className="bg-[#01559B] text-white flex flex-col sm:flex-row items-center justify-between gap-6 p-6">
 
             {/* Left div: Logo + Name */}
             <div className="flex flex-col sm:flex-row items-center gap-4 w-full ml-4 sm:w-auto text-center sm:text-left">
