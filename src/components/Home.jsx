@@ -61,7 +61,7 @@ function Home() {
               text-justify "
           >
             With over a decade of experience as a trusted{" "}
-            <span className="font-semibold">LIC Development Office in Bhopal</span>,
+            <span className="font-semibold">LIC Development Officer in Bhopal</span>,
             Abhilasha Mauka guided hundreds of families toward financial
             stability and peace of mind. Her deep understanding of life
             insurance and financial planning allows her to craft solutions
