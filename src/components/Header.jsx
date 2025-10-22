@@ -24,7 +24,7 @@ export default function Header() {
                 <a href="https://www.instagram.com/abhilashamauka/?igsh=MWd5am8wbnBwM25yZA%3D%3D#" target="_blank" rel="noopener noreferrer" className="text-xl hover:text-pink-400"><FaInstagram /></a>
                 <a href="https://www.youtube.com/@abhilashamauka" target="_blank" rel="noopener noreferrer" className="text-xl hover:text-red-500"><FaYoutube /></a>
                 <a href="https://wa.me/919907972354" target="_blank" rel="noopener noreferrer" className="text-xl hover:text-green-400"><FaWhatsapp /></a>
-                <a href="mailto:wealthcreator23@gmail.com" target="_blank" rel="noopener noreferrer" className="text-xl hover:text-blue-300"><FaEnvelope /></a>
+                <a href="mailto:abhilashamauka23@gmail.com" target="_blank" rel="noopener noreferrer" className="text-xl hover:text-blue-300"><FaEnvelope /></a>
                 <a href="tel:+919907972354" target="_blank" rel="noopener noreferrer" className="text-xl hover:text-yellow-400"><FaPhone className="transform scale-x-[-1]" /></a>
             </div>
 

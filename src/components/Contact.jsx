@@ -65,7 +65,7 @@ export default function Contact() {
               <FaWhatsapp />
             </a>
             <a
-              href="mailto:wealthcreator23@gmail.com"
+              href="mailto:abhilashamauka23@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-xl hover:text-blue-400 transition"
@@ -85,15 +85,6 @@ export default function Contact() {
 
         {/* Contact Info */}
         <div className="mt-10 space-y-2 text-gray-700 text-center sm:text-left">
-          <p>
-            <span className="font-semibold text-blue-900">Email:</span>{" "}
-            <a
-              href="mailto:teamabhilasha@licagentinbhopal.com"
-              className="text-blue-600 hover:underline"
-            >
-              teamabhilasha@licagentinbhopal.com
-            </a>
-          </p>
           <p>
             <span className="font-semibold text-blue-900">Email:</span>{" "}
             <a

@@ -21,7 +21,7 @@ function Home() {
               text-base sm:text-lg 
               text-justify "
         >
-          Are you unsure about choosing the right LIC plan? Do life’s financial
+          Are you confused about choosing the right LIC plan? Do life’s financial
           decisions feel confusing or overwhelming? <br />
           I’m <span className="font-bold">Abhilasha Mauka</span>, and with{" "}
           <span className="font-bold">Team Abhilasha </span>
