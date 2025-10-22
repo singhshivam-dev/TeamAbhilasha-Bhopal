@@ -1,6 +1,8 @@
 import { useState } from "react"
 import Separator from "../ui/Separator"
 
+// https://docs.google.com/forms/d/e/1FAIpQLSfzKmAtpy4p0tqvUrc2o9KHD23pgEMbK6OThr13cIBAj9TXQw/viewform?usp=pp_url&entry.1742069718=testw&entry.1596779682=579161234&entry.438082395=testw@g.com&entry.667059463=testw+check
+
 export default function Query() {
   const [formData, setFormData] = useState({
     name: "",
@@ -21,13 +23,13 @@ export default function Query() {
       return
     }
 
-    const googleFormURL = "https://docs.google.com/forms/d/e/1FAIpQLSdZEY7RXnfCVJUY9BZO2Dmqzh-3aUq5DNVl7DuInELjJ3cJkw/formResponse"
+    const googleFormURL = "https://docs.google.com/forms/d/e/1FAIpQLSfzKmAtpy4p0tqvUrc2o9KHD23pgEMbK6OThr13cIBAj9TXQw/formResponse"
 
     const formBody = new URLSearchParams()
-    formBody.append("entry.472271913", formData.name)   // replace with actual entry IDs
-    formBody.append("entry.511016150", formData.phone)
-    formBody.append("entry.930032305", formData.email)
-    formBody.append("entry.1942713104", formData.message)
+    formBody.append("entry.1742069718", formData.name)   // replace with actual entry IDs
+    formBody.append("entry.1596779682", formData.phone)
+    formBody.append("entry.438082395", formData.email)
+    formBody.append("entry.667059463", formData.message)
 
     fetch(googleFormURL, {
       method: "POST",
