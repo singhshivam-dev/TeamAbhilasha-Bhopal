@@ -61,11 +61,11 @@ function Home() {
               text-justify "
           >
             With over a decade of experience as a trusted{" "}
-            <span className="font-semibold">LIC Development Officer in Bhopal</span>,
-            Abhilasha Mauka guided hundreds of families toward financial
-            stability and peace of mind. Her deep understanding of life
-            insurance and financial planning allows her to craft solutions
-            tailored to every stage of life.
+  <span className="font-semibold">LIC Development Officer in Bhopal</span>,
+  Abhilasha Mauka guided <span className="font-semibold">lakhs of lives</span> toward financial
+  stability and peace of mind. Her deep understanding of life
+  insurance and financial planning allows her to craft solutions
+  tailored to every stage of life.
           </p>
           <p
             className="text-gray-700 leading-relaxed sm:leading-loose 

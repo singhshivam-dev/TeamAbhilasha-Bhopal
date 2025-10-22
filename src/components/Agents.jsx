@@ -1,5 +1,5 @@
-import React, { useState } from "react"
-import Separator from "../ui/Separator"
+import React, { useState } from "react";
+import Separator from "../ui/Separator";
 
 export default function Agents() {
   const agents = [
@@ -25,10 +25,22 @@ export default function Agents() {
     { name: "Sanju Meena", phone: "73898 26269" },
     { name: "Leena Agrawal", phone: "93005 30301" },
     { name: "Manish Kumar Nigam", phone: "88394 97615" },
-  ]
+    { name: "Neha Raghuwanshi", phone: "62672 71143" },
+    { name: "Sarita Saxena", phone: "79998 04241" },
+    { name: "Suman Maity", phone: "93406 02618" },
+    { name: "Abhilasha Soni", phone: "94798 04930" },
+    { name: "Purnima Pandey", phone: "79876 74991" },
+    { name: "Jayanti Meher", phone: "99931 82201" },
+    { name: "Aparna Roy", phone: "81202 31576" },
+    { name: "Kalawati Jaiswar", phone: "93011 45768" },
+    { name: "Rajni Saxena", phone: "94065 33347" },
+    { name: "Shilpi Roy", phone: "89673 67576" },
+    { name: "Swapnil Sharma", phone: "98938 11841" },
+    { name: "Akshat Bhavsar", phone: "73544 08440" },
+  ];
 
-  const [showAll, setShowAll] = useState(false)
-  const visibleAgents = showAll ? agents : agents.slice(0, 6)
+  const [showAll, setShowAll] = useState(false);
+  const visibleAgents = showAll ? agents : agents.slice(0, 6);
 
   return (
     <div className="bg-white">
@@ -41,7 +53,7 @@ export default function Agents() {
         </div>
 
         {/* Agents Grid */}
-        <ul className="grid gap-4 sm:grid-cols-2 mt-6">
+        <ul className="grid gap-4 sm:grid-cols-2 mt-6 bg-white/50 backdrop-blur-lg rounded-2xl p-8 shadow-2xl border border-white/20">
           {visibleAgents.map((agent, idx) => (
             <li
               key={idx}
@@ -49,7 +61,9 @@ export default function Agents() {
                  p-4 flex flex-row items-center justify-between flex-wrap 
                  hover:shadow-md transition duration-500 hover:bg-[#FFCB08]"
             >
-              <span className="font-semibold text-white  group-hover:text-blue-900">{agent.name}</span>
+              <span className="font-semibold text-white  group-hover:text-blue-900">
+                {agent.name}
+              </span>
               <a
                 href={`tel:${agent.phone.replace(/\s+/g, "")}`}
                 className="text-white underline  font-semibold mt-2 sm:mt-0 hover:underline group-hover:text-blue-900"
@@ -71,5 +85,5 @@ export default function Agents() {
         </div>
       </section>
     </div>
-  )
+  );
 }

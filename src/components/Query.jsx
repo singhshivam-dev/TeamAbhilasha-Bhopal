@@ -56,7 +56,7 @@ export default function Query() {
           <Separator />
         </div>
 
-        <form onSubmit={handleSubmit} className="mt-8 grid gap-4 sm:grid-cols-1">
+        <form onSubmit={handleSubmit} className="mt-8 bg-white/50 backdrop-blur-lg rounded-2xl p-8 shadow-2xl border border-white/20 grid gap-4 sm:grid-cols-1">
           <input
             type="text"
             name="name"

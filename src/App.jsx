@@ -5,6 +5,8 @@ import Footer from "./components/Footer"
 import Home from "./components/Home"
 import Agents from "./components/Agents"
 import AgentApply from "./components/AgentApply"
+import Reviews from "./components/Reviews"
+import Gallery from "./components/Gallery"
 import Query from "./components/Query"
 import Contact from "./components/Contact"
 
@@ -17,6 +19,8 @@ function App() {
       <Services />
       <Agents />
       <AgentApply />
+      <Reviews />
+      <Gallery />
       <Query />
       <Contact />
 

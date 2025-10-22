@@ -56,7 +56,7 @@ export default function AgentApply() {
           <Separator />
         </div>
 
-        <form onSubmit={handleSubmit} className="mt-8 grid gap-4 sm:grid-cols-1">
+        <form onSubmit={handleSubmit} className="mt-8 grid gap-4 sm:grid-cols-1 bg-white/50 backdrop-blur-lg rounded-2xl p-8 shadow-2xl border border-white/20">
           <input
             type="text"
             name="name"
@@ -93,7 +93,7 @@ export default function AgentApply() {
           ></textarea>
 
           <button
-            id="query"
+            id="reviews"
             type="submit"
             className="bg-[#F09A3E] text-white uppercase text-center font-semibold p-4 rounded-md hover:bg-[#FFCB08] hover:text-blue-900 transition duration-500"
           >
