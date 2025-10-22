@@ -14,17 +14,17 @@ export default function Reviews() {
       name: "Dolly Sharma Ji & Madam Alka shukla Ji"
     },
     {
-      image: "/images/gallery (3).jpeg",
+      image: "/images/Client (3).jpeg",
       // text: "Exceeded all expectations. Will definitely work again.",
       name: "Adv Rajkumari Sharma"
     },
     {
-      image: "/images/gallery (4).jpeg",
+      image: "/images/Client (4).jpeg",
       // text: "Professional, reliable, and absolutely fantastic results.",
       name: "Alka Sharma Ji"
     },
     {
-      image: "/images/gallery (5).jpeg",
+      image: "/images/Client (5).jpeg",
       // text: "Incredible attention to detail. Could not be happier!",
       name: "Shri Harpreet Saluja"
     }
