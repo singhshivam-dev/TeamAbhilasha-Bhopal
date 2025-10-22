@@ -5,28 +5,28 @@ export default function Reviews() {
   const reviews = [
     {
       image: "/images/Client (1).jpeg",
-      text: "Outstanding service and professionalism. Highly recommend!",
-      name: "Sarah Johnson"
+      // text: "Outstanding service and professionalism. Highly recommend!",
+      name: "Smt Samta Agrawal"
     },
     {
       image: "/images/Client (2).jpeg",
-      text: "Best experience I've had. Truly exceptional quality.",
-      name: "Michael Chen"
+      // text: "Best experience I've had. Truly exceptional quality.",
+      name: "Dolly Sharma Ji & Madam Alka shukla Ji"
     },
     {
       image: "/images/gallery (3).jpeg",
-      text: "Exceeded all expectations. Will definitely work again.",
-      name: "Emily Rodriguez"
+      // text: "Exceeded all expectations. Will definitely work again.",
+      name: "Adv Rajkumari Sharma"
     },
     {
       image: "/images/gallery (4).jpeg",
-      text: "Professional, reliable, and absolutely fantastic results.",
-      name: "David Thompson"
+      // text: "Professional, reliable, and absolutely fantastic results.",
+      name: "Alka Sharma Ji"
     },
     {
       image: "/images/gallery (5).jpeg",
-      text: "Incredible attention to detail. Could not be happier!",
-      name: "Jessica Williams"
+      // text: "Incredible attention to detail. Could not be happier!",
+      name: "Shri Harpreet Saluja"
     }
   ]
 
@@ -50,7 +50,7 @@ export default function Reviews() {
       <div className="max-w-4xl mx-auto px-4">
         <div className="flex flex-col items-center mb-12">
           <h2 className="text-[#333C4E] text-4xl font-bold text-center ">
-            Client Reviews
+            Our Clients
           </h2>
           <Separator />
         </div>
@@ -69,9 +69,9 @@ export default function Reviews() {
               />
             </div>
 
-            <p className="text-gray-700 text-lg text-center italic max-w-2xl mb-2 px-4">
+            {/* <p className="text-gray-700 text-lg text-center italic max-w-2xl mb-2 px-4">
               "{reviews[currentReview].text}"
-            </p>
+            </p> */}
 
             <h3 className="text-[#333C4E] text-xl font-semibold">
               {reviews[currentReview].name}
