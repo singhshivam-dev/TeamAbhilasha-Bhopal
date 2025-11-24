@@ -22,13 +22,13 @@ export default function AgentApply() {
       return
     }
 
-    const googleFormURL = "https://docs.google.com/forms/d/e/1FAIpQLSeFxXDvZe68DD1Io_HP59L3G4pTzPPNOCscGCGMLDOzth2sPw/formResponse"
+    // const googleFormURL = "https://docs.google.com/forms/d/e/1FAIpQLSeFxXDvZe68DD1Io_HP59L3G4pTzPPNOCscGCGMLDOzth2sPw/formResponse"
 
-    const formBody = new URLSearchParams()
-    formBody.append("entry.1072567605", formData.name)   // replace with actual entry IDs
-    formBody.append("entry.2091499292", formData.phone)
-    formBody.append("entry.2053298036", formData.email)
-    formBody.append("entry.1868425652", formData.message)
+    // const formBody = new URLSearchParams()
+    // formBody.append("entry.1072567605", formData.name)   // replace with actual entry IDs
+    // formBody.append("entry.2091499292", formData.phone)
+    // formBody.append("entry.2053298036", formData.email)
+    // formBody.append("entry.1868425652", formData.message)
 
     fetch(googleFormURL, {
       method: "POST",

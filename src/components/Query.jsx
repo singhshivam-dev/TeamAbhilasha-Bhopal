@@ -22,13 +22,13 @@ export default function Query() {
       return
     }
 
-    const googleFormURL = "https://docs.google.com/forms/d/e/1FAIpQLSeJbKlEyRq69ODwJw0EGEp4fMLsD3_6hgVoCiqzJtKdoRN1DA/formResponse"
+    // const googleFormURL = "https://docs.google.com/forms/d/e/1FAIpQLSeJbKlEyRq69ODwJw0EGEp4fMLsD3_6hgVoCiqzJtKdoRN1DA/formResponse"
 
-    const formBody = new URLSearchParams()
-    formBody.append("entry.402632186", formData.name)   // replace with actual entry IDs
-    formBody.append("entry.2047322692", formData.phone)
-    formBody.append("entry.305068907", formData.email)
-    formBody.append("entry.1945219465", formData.message)
+    // const formBody = new URLSearchParams()
+    // formBody.append("entry.402632186", formData.name)   // replace with actual entry IDs
+    // formBody.append("entry.2047322692", formData.phone)
+    // formBody.append("entry.305068907", formData.email)
+    // formBody.append("entry.1945219465", formData.message)
 
     fetch(googleFormURL, {
       method: "POST",
